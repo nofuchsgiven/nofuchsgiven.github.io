@@ -55,14 +55,13 @@ img{
 
 @media (max-width: 500px) {
         .wrapper {
-            max-height: 95vh;
+            max-height: 80vh;
             max-width: 100vw;
             display: grid;
             grid-template-rows: 0.5fr 1fr 1.5fr;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 8px;
             justify-content: center;
-            color: blue;
         }  
 
         .content {
@@ -80,6 +79,7 @@ img{
             grid-row-end: 3;
             align-self: end;
             justify-self: center;
+            margin-bottom: 0px;
         }
 
         img{
